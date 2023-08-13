@@ -15,7 +15,6 @@ body {
 .hero h3,
 .hero p,
 .hero a {
-  text-align: center;
   color: white;
 }
 .hero h1 {
@@ -46,7 +45,7 @@ body {
 
 .navigationLinks {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   font-family: var(--primary-font);
   margin-top: 40px;
 }
@@ -61,4 +60,36 @@ body {
 
 .navLinkBtn:hover {
   color: black;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+  p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+}
+@media (max-width: 600px) {
+  .navigationLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .btn {
+    padding: 10px 20px;
+  }
 }
