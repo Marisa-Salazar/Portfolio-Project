@@ -10,18 +10,31 @@ body {
   background: var(--primary-color);
 }
 
-h1 {
+.hero h1,
+.hero h2,
+.hero h3,
+.hero p,
+.hero a {
+  text-align: center;
+  color: white;
+}
+.hero h1 {
   font-size: 80px;
   font-weight: bold;
   font-family: var(--primary-font);
   color: white;
 }
 
-h2 {
+.hero h2 {
   font-family: var(--secondary-font);
   color: white;
   font-weight: normal;
   font-size: 22px;
+}
+
+.hero h3 {
+  font-size: 35px;
+  font-family: var(--secondary-font);
 }
 
 .womanCoding {
@@ -31,27 +44,21 @@ h2 {
   height: auto;
 }
 
-.btn {
+.navigationLinks {
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  align-items: center;
-  padding: 18px 30px;
-  position: absolute;
-  width: 200px;
-  height: 63px;
-  margin-top: 30px;
-  background: var(--btn-color);
-  font-family: var(--secondary-font);
-  color: black;
+  font-family: var(--primary-font);
+  margin-top: 40px;
 }
 
-.btn a {
+.navigationLinks a {
+  margin: 20px;
   border-radius: 4px;
-  text-decoration: none;
-  text-transform: capitalize;
+  padding: 20px 15px;
+  color: var(--btn-color);
+  font-size: 30px;
 }
 
-.btn:hover {
-  background: var(--btn-hover);
+.navLinkBtn:hover {
+  color: black;
 }
