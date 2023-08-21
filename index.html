@@ -14,8 +14,8 @@
       crossorigin="anonymous"
     ></script>
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
     <script
@@ -31,92 +31,169 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marisa's Portfolio</title>
   </head>
-  <body class="homepage">
-    <div class="hero">
-      <div class="container">
-        <div class="row mt-5">
-          <div class="col-sm-6 d-none d-lg-block">
-            <img
-              src="/images/female developer.svg"
-              class="img-fluid womanCoding mt-3"
-              alt="woman coding"
-            />
-          </div>
-
-          <div class="col-lg-6">
-            <h3 class="mt-5 text-center">Hello, I am</h3>
-            <h1 class="mb-2 text-center">Marisa Salazar</h1>
-            <h2 class="text-center mt-3 lh-base">
-              Front-end Developer based in Southern Arizona
-            </h2>
-            <div class="navigationLinks">
-              <a href="/about.html" title="About Marisa" class="btn navLinkBtn">
-                About</a
-              >
+  <body>
+    <nav
+      class="navbar navbar-custom navbar-expand-lg bg-body-tertiary bg-dark sticky-top"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid">
+        <a
+          class="navbar-brand"
+          href="/index.html"
+          title="Back to Homepage"
+          name="Homepage"
+          >Marisa
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
               <a
+                class="nav-link active"
+                aria-current="page"
+                href="/index.html"
+                title="Back to Homepage"
+                name="Homepage"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/about.html"
+                title="About Marisa"
+                name="About"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
                 href="/projects.html"
                 title="Marisa's Projects"
-                class="btn navLinkBtn"
+                name="Projects"
+                >Projects</a
               >
-                Projects</a
-              >
+            </li>
+            <li class="nav-item">
               <a
+                class="nav-link"
                 href="/index.html#contact"
                 title="Contact Marisa"
-                class="btn navLinkBtn"
+                name="contact"
+                >Contact</a
               >
-                Contact
-              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="homepage">
+      <div class="hero">
+        <div class="container">
+          <div class="row mt-3">
+            <div class="col-sm-6 d-none d-lg-block">
+              <img
+                src="/images/female developer.svg"
+                class="img-fluid womanCoding mt-3"
+                alt="woman coding"
+              />
+            </div>
+
+            <div class="col-lg-6">
+              <h3 class="mt-5 text-center">Hello, I am</h3>
+              <h1 class="mb-2 text-center">Marisa Salazar</h1>
+              <h2 class="text-center mt-3 lh-base">
+                Front-end Developer based in Southern Arizona
+              </h2>
+              <div class="navigationLinks">
+                <a
+                  href="/about.html"
+                  title="About Marisa"
+                  class="btn navLinkBtn"
+                >
+                  About</a
+                >
+                <a
+                  href="/projects.html"
+                  title="Marisa's Projects"
+                  class="btn navLinkBtn"
+                >
+                  Projects</a
+                >
+                <a
+                  href="/index.html#contact"
+                  title="Contact Marisa"
+                  class="btn navLinkBtn"
+                >
+                  Contact
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="contactMe" id="contact">
-      <br /><br />
-      <div class="icon">
-        <i class="fa-solid fa-angles-down fa-2xl" style="color: #51b4c4"></i>
-      </div>
-      <br /><br />
-      <h2>Get In Touch</h2>
-      <br />
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 icon">
-            <i class="fa-solid fa-envelope fa-2xl"></i>
-          </div>
-          <div class="col-lg-4 icon">
-            <i class="fa-brands fa-linkedin fa-2xl"></i>
-          </div>
-          <div class="col-lg-4 icon">
-            <i class="fa-brands fa-square-github fa-2xl"></i>
-          </div>
-          <span class="contactLinks">
-            <div class="col-lg-4 text-center">
-              <a
-                href="mailto:salazar.marisa15@gmail.com"
-                title="Email"
-                class="navLinkBtn"
-                >Email</a
-              >
+      <div class="contactMe" id="contact">
+        <br /><br />
+        <div class="icon">
+          <i class="fa-solid fa-angles-down fa-2xl" style="color: #51b4c4"></i>
+        </div>
+        <br /><br />
+        <h2>Get In Touch</h2>
+        <br />
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 icon">
+              <i class="fa-solid fa-envelope fa-2xl"></i>
             </div>
-            <div class="col-lg-4 text-center">
-              <a
-                href="https://www.linkedin.com/in/marisa-salazar-92aa55271/"
-                title="LinkedIn"
-                class="navLinkBtn"
-                >LinkedIn</a
-              >
+            <div class="col-lg-4 icon">
+              <i class="fa-brands fa-linkedin fa-2xl"></i>
             </div>
-            <div class="col-lg-4 text-center">
-              <a
-                href="https://github.com/Marisa-Salazar"
-                title="GitHub"
-                class="navLinkBtn"
-                >GitHub</a
-              >
+            <div class="col-lg-4 icon">
+              <i class="fa-brands fa-square-github fa-2xl"></i>
             </div>
-          </span>
+            <span class="contactLinks">
+              <div class="col-lg-4 text-center">
+                <a
+                  href="mailto:salazar.marisa15@gmail.com"
+                  title="Email"
+                  class="navLinkBtn"
+                  >Email</a
+                >
+              </div>
+              <div class="col-lg-4 text-center">
+                <a
+                  href="https://www.linkedin.com/in/marisa-salazar-92aa55271/"
+                  title="LinkedIn"
+                  class="navLinkBtn"
+                  target="_blank"
+                  >LinkedIn</a
+                >
+              </div>
+              <div class="col-lg-4 text-center">
+                <a
+                  href="https://github.com/Marisa-Salazar"
+                  title="GitHub"
+                  class="navLinkBtn"
+                  target="_blank"
+                  >GitHub</a
+                >
+              </div>
+            </span>
+          </div>
         </div>
       </div>
     </div>

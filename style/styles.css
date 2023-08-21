@@ -6,7 +6,21 @@
   --primary-font: "Playfair Display", serif;
   --secondary-font: "Poppins", sans-serif;
 }
+/* NavBar*/
+.navbar {
+  background: #00204a !important;
+}
 
+.navbar-brand {
+  color: var(--btn-hover);
+}
+.nav-link {
+  color: var(--btn-color);
+}
+
+.nav-link:hover {
+  color: var(--btn-hover);
+}
 /* homepage*/
 .homepage {
   background: var(--primary-color);
