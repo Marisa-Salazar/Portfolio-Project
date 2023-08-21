@@ -164,6 +164,34 @@ h2 {
   width: 500px;
 }
 
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px;
+  font-family: var(--secondary-font);
+  font-weight: 100;
+}
+span {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.coded-by {
+  color: white;
+  font-family: monospace;
+  font-size: 11px;
+  padding-top: 15px;
+  text-decoration: none;
+  margin-bottom: 0;
+}
+
+#open-source {
+  padding-right: 10px;
+  text-decoration: none;
+  color: #d8d7c38c;
+}
+
 @media (max-width: 820px) {
   h1 {
     font-size: 50px;
